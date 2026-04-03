@@ -1,0 +1,34 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "dragger",
+        "version": "1.0.0",
+        "title": "Dragger",
+        "description": "Dragger Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "1.2.6",
+        "author": "Canhua"
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "[Dragger] drag lifecycle listener failed:",
+                    "target": "[拖拽] 生命周期监听失败："
+                }
+            ],
+            "regex": [
+                {
+                    "source": "text: `\n${normalized}`",
+                    "target": "text: `\n${normalized}`"
+                },
+                {
+                    "source": "textContent = \"Delete\"",
+                    "target": "textContent = \"Delete\""
+                }
+            ]
+        }
+    }
+}

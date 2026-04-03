@@ -1,0 +1,1240 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "auto-move-file",
+        "version": "1.0.0",
+        "title": "Auto Move File",
+        "description": "Auto Move File Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "3.1.0",
+        "author": "Canhua"
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "暂无规则，请添加新规则",
+                    "target": "暂无规则，请添加新规则"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "📁 文件夹",
+                    "target": "📁 文件夹"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "📋 复制",
+                    "target": "📋 复制"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "➡️ 移动",
+                    "target": "➡️ 移动"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "已选中 0 个规则",
+                    "target": "已选中 0 个规则"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "作者",
+                    "target": "作者"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "极拓工坊",
+                    "target": "极拓工坊"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "微信公众号：极拓工坊",
+                    "target": "微信公众号：极拓工坊"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "点击上方按钮，在微信中搜索「极拓工坊」",
+                    "target": "点击上方按钮，在微信中搜索「极拓工坊」"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "监控文件名",
+                    "target": "监控文件名"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "监控属性值",
+                    "target": "监控属性值"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "归档文件夹失败:",
+                    "target": "归档失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "复制文件失败:",
+                    "target": "复制失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "移动文件失败:",
+                    "target": "移动失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Auto Move File v3.0 plugin loaded",
+                    "target": "自动移动文件插件v3.0已加载"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "=== File modified event triggered ===",
+                    "target": "=== 文件修改事件触发 ==="
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "File modified:",
+                    "target": "文件已修改："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "  -> Has filename monitoring rules, skipping modify event (waiting for rename)",
+                    "target": "  -> 存在文件名监控规则，跳过修改事件（等待重命名）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "=== Delay elapsed, checking file now ===",
+                    "target": "=== 延迟结束，正在检查文件 ==="
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "  -> File no longer exists:",
+                    "target": "  -> 文件已不存在："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "=== File renamed event triggered ===",
+                    "target": "=== 文件重命名事件触发 ==="
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "File renamed:",
+                    "target": "文件已重命名："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "New filename:",
+                    "target": "新文件名："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "=== Delay elapsed, checking renamed file now ===",
+                    "target": "=== 延迟结束，正在检查重命名文件 ==="
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "=== checkAndMoveFile called ===",
+                    "target": "=== 调用checkAndMoveFile ==="
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "File path:",
+                    "target": "文件路径："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "File name:",
+                    "target": "文件名："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Is renamed event:",
+                    "target": "是否重命名事件："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "  -> Not a markdown file",
+                    "target": "  -> 非Markdown文件"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "  -> No keywords set (all files match)",
+                    "target": "  -> 未设置关键词（所有文件匹配）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "  -> Both folder and keywords set, using AND logic",
+                    "target": "  -> 文件夹和关键词均设置，使用AND逻辑"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "  -> Only folder set",
+                    "target": "  -> 仅设置文件夹"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "  -> Only keywords set",
+                    "target": "  -> 仅设置关键词"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "  -> No settings, monitoring all files",
+                    "target": "  -> 无设置，监控所有文件"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "  -> File passed all checks",
+                    "target": "  -> 文件通过所有检查"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "  -> No rules defined, skipping",
+                    "target": "  -> 未定义规则，跳过"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "  -> No frontmatter found, skipping rule",
+                    "target": "  -> 未找到frontmatter，跳过规则"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "=== checkAndMoveFile completed (folder archived) ===\n",
+                    "target": "=== checkAndMoveFile完成（文件夹已归档） ===\n"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "=== checkAndMoveFile completed (file copied) ===\n",
+                    "target": "=== checkAndMoveFile完成（文件已复制） ===\n"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "=== checkAndMoveFile completed (file moved) ===\n",
+                    "target": "=== checkAndMoveFile完成（文件已移动） ===\n"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "  -> No rule matched, no move needed",
+                    "target": "  -> 无规则匹配，无需移动"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "=== checkAndMoveFile completed (no move) ===\n",
+                    "target": "=== checkAndMoveFile 完成（无需移动） ===\n"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "archiveFolder called for:",
+                    "target": "archiveFolder 调用目标："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Source folder path:",
+                    "target": "源文件夹路径："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "No source folder specified, using file parent folder",
+                    "target": "未指定源文件夹，使用文件父目录"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "File is in root directory, cannot archive folder",
+                    "target": "文件在根目录，无法归档文件夹"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Source folder not found or is not a folder:",
+                    "target": "源文件夹不存在或非文件夹："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Source folder name:",
+                    "target": "源文件夹名称："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Target folder path:",
+                    "target": "目标文件夹路径："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Creating target directory:",
+                    "target": "创建目标目录："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Renaming folder...",
+                    "target": "正在重命名文件夹..."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "copyFile called for:",
+                    "target": "copyFile 调用目标："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Target path:",
+                    "target": "目标路径："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Copying file...",
+                    "target": "正在复制文件..."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "moveFile called for:",
+                    "target": "moveFile 调用目标："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Renaming file...",
+                    "target": "正在重命名文件..."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Migrating old settings to new format...",
+                    "target": "正在迁移旧设置到新格式..."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Auto Move Published Articles plugin unloaded",
+                    "target": "自动移动已发布文章插件已卸载"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "选择文件夹",
+                    "target": "选择文件夹"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "测试当前文件",
+                    "target": "测试当前文件"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "检查所有",
+                    "target": "全选"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "选择监控模式",
+                    "target": "选择监控模式"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "要监控的 frontmatter 属性名（如：tags、status、form 等）",
+                    "target": "监控的 frontmatter 属性名（如：tags、status、form 等）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "当属性包含此值时，触发归档",
+                    "target": "属性含此值时触发归档"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "如果属性同时包含此值，则不移动（留空则不阻止）",
+                    "target": "属性同时含此值时不移动（留空不阻止）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "输入文件名必须包含的字符串（不区分大小写）",
+                    "target": "文件名需包含的字符串（不区分大小写）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "文件移动的目标路径",
+                    "target": "文件移动目标路径"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "是否启用此规则",
+                    "target": "启用此规则"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "勾选时归档指定的整个文件夹，不勾选时只归档单个文件",
+                    "target": "勾选时归档整个文件夹，否则只归档单个文件"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "选择要归档的源文件夹路径",
+                    "target": "选择源文件夹路径"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "勾选时复制文件到目标文件夹（保留原文件），不勾选时移动文件到目标文件夹",
+                    "target": "勾选时复制文件到目标文件夹（保留原文件），不勾选时移动文件"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "监控的文件夹路径（留空则监控整个仓库，支持相对路径和绝对路径）。所有规则都要满足此条件。",
+                    "target": "监控文件夹路径（留空监控整个仓库，支持相对/绝对路径）。所有规则需满足此条件"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "文件名包含的关键词（留空则忽略，多个关键词用逗号分隔）。所有规则都要满足此条件。",
+                    "target": "文件名关键词（留空忽略，多个用逗号分隔）。所有规则需满足此条件"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "文件修改后延迟多久执行检查",
+                    "target": "文件修改后延迟检查时间"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "检查当前活动文件是否符合移动条件",
+                    "target": "检查当前活动文件是否符合移动条件"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "检查所有符合条件的文件",
+                    "target": "检查所有符合条件的文件"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "监控模式",
+                    "target": "监控模式"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "监控属性",
+                    "target": "监控属性"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "触发值",
+                    "target": "触发值"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "阻止值",
+                    "target": "阻止值"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "文件名包含字符",
+                    "target": "文件名包含字符"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "目标文件夹",
+                    "target": "目标文件夹"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "启用此规则",
+                    "target": "启用此规则"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "文件夹归档模式",
+                    "target": "文件夹归档模式"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "源文件夹",
+                    "target": "源文件夹"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "复制模式",
+                    "target": "复制模式"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "监控文件夹",
+                    "target": "监控文件夹"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "监控关键词",
+                    "target": "监控关键词"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "延迟时间（毫秒）",
+                    "target": "延迟时间（毫秒）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "测试当前文件",
+                    "target": "测试当前文件"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "检查所有文件",
+                    "target": "检查所有文件"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "已发",
+                    "target": "已发"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "待发",
+                    "target": "待发"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "例如：已发、完成、done等",
+                    "target": "例如：已发、完成、done等"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "归档/已发文章",
+                    "target": "归档/已发文章"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "选择要归档的源文件夹",
+                    "target": "选择源文件夹"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "留空则忽略此条件",
+                    "target": "留空忽略"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Auto Move File v3.0 plugin loaded",
+                    "target": "自动移动文件插件v3.0已加载"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "没有活动的文件",
+                    "target": "无活动文件"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "文件在根目录中，无法归档文件夹",
+                    "target": "根目录文件无法归档"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "配置已自动迁移到 v3.0 格式",
+                    "target": "配置已自动迁移至v3.0格式"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "已复制「极拓工坊」到剪贴板，请在微信中搜索",
+                    "target": "「极拓工坊」已复制到剪贴板，请在微信中搜索"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "请先选择要删除的规则",
+                    "target": "请先选择要删除的规则"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "请先选择要操作的规则",
+                    "target": "请先选择要操作的规则"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "检查并移动当前文章",
+                    "target": "检查并移动当前文章"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "检查并移动所有文章",
+                    "target": "检查并移动所有文章"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "取消",
+                    "target": "取消"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "保存",
+                    "target": "保存"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "自动移动文件插件设置 v3.0",
+                    "target": "自动移动文件插件设置v3.0"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "全局配置",
+                    "target": "全局配置"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "规则列表",
+                    "target": "规则列表"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "+ 添加新规则",
+                    "target": "+ 添加规则"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "✏️",
+                    "target": "✏️"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "🗑️",
+                    "target": "🗑️"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "🗑️ 删除选中",
+                    "target": "🗑️ 删除所选"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "⏸️ 禁用选中",
+                    "target": "⏸️ 禁用所选"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "▶️ 启用选中",
+                    "target": "▶️ 启用所选"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "测试功能",
+                    "target": "测试功能"
+                }
+            ],
+            "regex": [
+                {
+                    "source": "setName('监控模式')",
+                    "target": "setName('监控模式')"
+                },
+                {
+                    "source": "setDesc('选择监控模式')",
+                    "target": "setDesc('选择监控模式')"
+                },
+                {
+                    "source": "setName('监控属性')",
+                    "target": "setName('监控属性')"
+                },
+                {
+                    "source": "setDesc('要监控的 frontmatter 属性名（如：tags、status、form 等）')",
+                    "target": "setDesc('要监控的 frontmatter 属性名（如：tags、status、form 等）')"
+                },
+                {
+                    "source": "setName('触发值')",
+                    "target": "setName('触发值')"
+                },
+                {
+                    "source": "setDesc('当属性包含此值时，触发归档')",
+                    "target": "setDesc('当属性包含此值时，触发归档')"
+                },
+                {
+                    "source": "setPlaceholder('已发')",
+                    "target": "setPlaceholder('已发')"
+                },
+                {
+                    "source": "setName('阻止值')",
+                    "target": "setName('阻止值')"
+                },
+                {
+                    "source": "setDesc('如果属性同时包含此值，则不移动（留空则不阻止）')",
+                    "target": "setDesc('如果属性同时包含此值，则不移动（留空则不阻止）')"
+                },
+                {
+                    "source": "setPlaceholder('待发')",
+                    "target": "setPlaceholder('待发')"
+                },
+                {
+                    "source": "setName('文件名包含字符')",
+                    "target": "setName('文件名包含字符')"
+                },
+                {
+                    "source": "setDesc('输入文件名必须包含的字符串（不区分大小写）')",
+                    "target": "setDesc('输入文件名必须包含的字符串（不区分大小写）')"
+                },
+                {
+                    "source": "setPlaceholder('例如：已发、完成、done等')",
+                    "target": "setPlaceholder('例如：已发、完成、done等')"
+                },
+                {
+                    "source": "setName('目标文件夹')",
+                    "target": "setName('目标文件夹')"
+                },
+                {
+                    "source": "setDesc('文件移动的目标路径')",
+                    "target": "setDesc('文件移动的目标路径')"
+                },
+                {
+                    "source": "setPlaceholder('归档/已发文章')",
+                    "target": "setPlaceholder('归档/已发文章')"
+                },
+                {
+                    "source": "setButtonText('选择文件夹')",
+                    "target": "setButtonText('选择文件夹')"
+                },
+                {
+                    "source": "setName('启用此规则')",
+                    "target": "setName('启用此规则')"
+                },
+                {
+                    "source": "setDesc('是否启用此规则')",
+                    "target": "setDesc('是否启用此规则')"
+                },
+                {
+                    "source": "setName('文件夹归档模式')",
+                    "target": "setName('文件夹归档模式')"
+                },
+                {
+                    "source": "setDesc('勾选时归档指定的整个文件夹，不勾选时只归档单个文件')",
+                    "target": "setDesc('勾选时归档指定的整个文件夹，不勾选时只归档单个文件')"
+                },
+                {
+                    "source": "setName('源文件夹')",
+                    "target": "setName('源文件夹')"
+                },
+                {
+                    "source": "setDesc('选择要归档的源文件夹路径')",
+                    "target": "setDesc('选择要归档的源文件夹路径')"
+                },
+                {
+                    "source": "setPlaceholder('选择要归档的源文件夹')",
+                    "target": "setPlaceholder('选择要归档的源文件夹')"
+                },
+                {
+                    "source": "setName('复制模式')",
+                    "target": "setName('复制模式')"
+                },
+                {
+                    "source": "setDesc('勾选时复制文件到目标文件夹（保留原文件），不勾选时移动文件到目标文件夹')",
+                    "target": "setDesc('勾选时复制文件到目标文件夹（保留原文件），不勾选时移动文件到目标文件夹')"
+                },
+                {
+                    "source": "log('Auto Move File v3.0 plugin loaded')",
+                    "target": "log('Auto Move File v3.0 plugin loaded')"
+                },
+                {
+                    "source": "Notice('Auto Move File v3.0 plugin loaded')",
+                    "target": "Notice('Auto Move File v3.0 plugin loaded')"
+                },
+                {
+                    "source": "Notice('没有活动的文件')",
+                    "target": "Notice('没有活动的文件')"
+                },
+                {
+                    "source": "log('=== File modified event triggered ===')",
+                    "target": "log('=== File modified event triggered ===')"
+                },
+                {
+                    "source": "log('File modified:', file.path);\r\n\r\n    // 检查是否有文件名监控模式的规则\r\n    const hasFilenameRules = this.settings.rules && this.settings.rules.some(rule => \r\n      rule.enabled && rule.watchMode === 'filename'\r\n    )",
+                    "target": "log('File modified:', file.path);\r\n\r\n    // 检查是否有文件名监控模式的规则\r\n    const hasFilenameRules = this.settings.rules && this.settings.rules.some(rule => \r\n      rule.enabled && rule.watchMode === 'filename'\r\n    )"
+                },
+                {
+                    "source": "log('  -> Has filename monitoring rules, skipping modify event (waiting for rename)')",
+                    "target": "log('  -> Has filename monitoring rules, skipping modify event (waiting for rename)')"
+                },
+                {
+                    "source": "log('=== Delay elapsed, checking file now ===')",
+                    "target": "log('=== Delay elapsed, checking file now ===')"
+                },
+                {
+                    "source": "log('  -> File no longer exists:', file.path);\r\n      }\r\n    }, this.settings.delayTime);\r\n  }\r\n\r\n  async onFileRenamed(file, oldPath) {\r\n    console.log('=== File renamed event triggered ===')",
+                    "target": "log('  -> File no longer exists:', file.path);\r\n      }\r\n    }, this.settings.delayTime);\r\n  }\r\n\r\n  async onFileRenamed(file, oldPath) {\r\n    console.log('=== File renamed event triggered ===')"
+                },
+                {
+                    "source": "log('File renamed:', oldPath, '->', file.path);\r\n    console.log('New filename:', file.name);\r\n\r\n    // 延迟执行\r\n    setTimeout(() => {\r\n      console.log('=== Delay elapsed, checking renamed file now ===')",
+                    "target": "log('File renamed:', oldPath, '->', file.path);\r\n    console.log('New filename:', file.name);\r\n\r\n    // 延迟执行\r\n    setTimeout(() => {\r\n      console.log('=== Delay elapsed, checking renamed file now ===')"
+                },
+                {
+                    "source": "log('  -> File no longer exists:', file.path);\r\n      }\r\n    }, this.settings.delayTime);\r\n  }\r\n\r\n  async checkAndMoveFile(file, isRenamed = false) {\r\n    console.log('=== checkAndMoveFile called ===')",
+                    "target": "log('  -> File no longer exists:', file.path);\r\n      }\r\n    }, this.settings.delayTime);\r\n  }\r\n\r\n  async checkAndMoveFile(file, isRenamed = false) {\r\n    console.log('=== checkAndMoveFile called ===')"
+                },
+                {
+                    "source": "log('File path:', file.path);\r\n    console.log('File name:', file.name);\r\n    console.log('Is renamed event:', isRenamed);\r\n\r\n    // 只处理 markdown 文件\r\n    if (file.extension !== 'md')",
+                    "target": "log('File path:', file.path);\r\n    console.log('File name:', file.name);\r\n    console.log('Is renamed event:', isRenamed);\r\n\r\n    // 只处理 markdown 文件\r\n    if (file.extension !== 'md')"
+                },
+                {
+                    "source": "log('  -> Not a markdown file')",
+                    "target": "log('  -> Not a markdown file')"
+                },
+                {
+                    "source": "log(`  -> In watch folder (${this.settings.watchFolder || 'root'}): ${inFolder}`)",
+                    "target": "log(`  -> In watch folder (${this.settings.watchFolder || 'root'}): ${inFolder}`)"
+                },
+                {
+                    "source": "log(`  -> Matches keywords (${keywords}): ${matchesKeywords}`)",
+                    "target": "log(`  -> Matches keywords (${keywords}): ${matchesKeywords}`)"
+                },
+                {
+                    "source": "log('  -> No keywords set (all files match)')",
+                    "target": "log('  -> No keywords set (all files match)')"
+                },
+                {
+                    "source": "log('  -> Both folder and keywords set, using AND logic')",
+                    "target": "log('  -> Both folder and keywords set, using AND logic')"
+                },
+                {
+                    "source": "log('  -> Only folder set')",
+                    "target": "log('  -> Only folder set')"
+                },
+                {
+                    "source": "log('  -> Only keywords set')",
+                    "target": "log('  -> Only keywords set')"
+                },
+                {
+                    "source": "log('  -> No settings, monitoring all files')",
+                    "target": "log('  -> No settings, monitoring all files')"
+                },
+                {
+                    "source": "log(`  -> Should monitor: ${shouldMonitor}`)",
+                    "target": "log(`  -> Should monitor: ${shouldMonitor}`)"
+                },
+                {
+                    "source": "log('  -> File passed all checks')",
+                    "target": "log('  -> File passed all checks')"
+                },
+                {
+                    "source": "log('  -> No rules defined, skipping')",
+                    "target": "log('  -> No rules defined, skipping')"
+                },
+                {
+                    "source": "log(`  -> Rule ${rule.id} is disabled, skipping`)",
+                    "target": "log(`  -> Rule ${rule.id} is disabled, skipping`)"
+                },
+                {
+                    "source": "log(`  -> Checking rule ${rule.id}...`)",
+                    "target": "log(`  -> Checking rule ${rule.id}...`)"
+                },
+                {
+                    "source": "log(`  -> Watch mode: ${rule.watchMode || 'property'}`)",
+                    "target": "log(`  -> Watch mode: ${rule.watchMode || 'property'}`)"
+                },
+                {
+                    "source": "log(`  -> Filename monitoring rule ${rule.id}, but not a rename event, skipping`)",
+                    "target": "log(`  -> Filename monitoring rule ${rule.id}, but not a rename event, skipping`)"
+                },
+                {
+                    "source": "log(`  -> Filename: ${filename}, Pattern: ${pattern}`)",
+                    "target": "log(`  -> Filename: ${filename}, Pattern: ${pattern}`)"
+                },
+                {
+                    "source": "log(`  -> No filename pattern set, skipping rule ${rule.id}`)",
+                    "target": "log(`  -> No filename pattern set, skipping rule ${rule.id}`)"
+                },
+                {
+                    "source": "log(`  -> String contains match result: ${matchesTrigger}`)",
+                    "target": "log(`  -> String contains match result: ${matchesTrigger}`)"
+                },
+                {
+                    "source": "log(`  -> Checking if \"${filename}\" contains \"${pattern}\"`)",
+                    "target": "log(`  -> Checking if \"${filename}\" contains \"${pattern}\"`)"
+                },
+                {
+                    "source": "log('  -> No frontmatter found, skipping rule')",
+                    "target": "log('  -> No frontmatter found, skipping rule')"
+                },
+                {
+                    "source": "log(`  -> Property '${rule.watchProperty}' not found, skipping rule ${rule.id}`)",
+                    "target": "log(`  -> Property '${rule.watchProperty}' not found, skipping rule ${rule.id}`)"
+                },
+                {
+                    "source": "log(`  -> Matches trigger: ${matchesTrigger}, Has blocking: ${hasBlocking}`)",
+                    "target": "log(`  -> Matches trigger: ${matchesTrigger}, Has blocking: ${hasBlocking}`)"
+                },
+                {
+                    "source": "log(`  -> Rule ${rule.id} matched! Archiving folder to ${rule.targetFolder}`)",
+                    "target": "log(`  -> Rule ${rule.id} matched! Archiving folder to ${rule.targetFolder}`)"
+                },
+                {
+                    "source": "log('=== checkAndMoveFile completed (folder archived) ===\\n')",
+                    "target": "log('=== checkAndMoveFile completed (folder archived) ===\\n')"
+                },
+                {
+                    "source": "log(`  -> Rule ${rule.id} matched! Copying file to ${rule.targetFolder}`)",
+                    "target": "log(`  -> Rule ${rule.id} matched! Copying file to ${rule.targetFolder}`)"
+                },
+                {
+                    "source": "log('=== checkAndMoveFile completed (file copied) ===\\n')",
+                    "target": "log('=== checkAndMoveFile completed (file copied) ===\\n')"
+                },
+                {
+                    "source": "log(`  -> Rule ${rule.id} matched! Moving file to ${rule.targetFolder}`)",
+                    "target": "log(`  -> Rule ${rule.id} matched! Moving file to ${rule.targetFolder}`)"
+                },
+                {
+                    "source": "log('=== checkAndMoveFile completed (file moved) ===\\n')",
+                    "target": "log('=== checkAndMoveFile completed (file moved) ===\\n')"
+                },
+                {
+                    "source": "log('  -> No rule matched, no move needed')",
+                    "target": "log('  -> No rule matched, no move needed')"
+                },
+                {
+                    "source": "log('=== checkAndMoveFile completed (no move) ===\\n')",
+                    "target": "log('=== checkAndMoveFile completed (no move) ===\\n')"
+                },
+                {
+                    "source": "log('archiveFolder called for:', file.path, '->', targetDir);\r\n    console.log('Source folder path:', sourceFolderPath);\r\n\r\n    // 检查源文件夹路径是否指定\r\n    if (!sourceFolderPath || sourceFolderPath.trim() === '')",
+                    "target": "log('archiveFolder called for:', file.path, '->', targetDir);\r\n    console.log('Source folder path:', sourceFolderPath);\r\n\r\n    // 检查源文件夹路径是否指定\r\n    if (!sourceFolderPath || sourceFolderPath.trim() === '')"
+                },
+                {
+                    "source": "log('No source folder specified, using file parent folder')",
+                    "target": "log('No source folder specified, using file parent folder')"
+                },
+                {
+                    "source": "log('File is in root directory, cannot archive folder')",
+                    "target": "log('File is in root directory, cannot archive folder')"
+                },
+                {
+                    "source": "Notice('文件在根目录中，无法归档文件夹')",
+                    "target": "Notice('文件在根目录中，无法归档文件夹')"
+                },
+                {
+                    "source": "log(`文件夹 ${sourceFolderName} 已移动到 ${targetDir}`)",
+                    "target": "log(`文件夹 ${sourceFolderName} 已移动到 ${targetDir}`)"
+                },
+                {
+                    "source": "Notice(`文件夹 \"${sourceFolderName}\" 已归档到 ${targetDir}`)",
+                    "target": "Notice(`文件夹 \"${sourceFolderName}\" 已归档到 ${targetDir}`)"
+                },
+                {
+                    "source": "log(`文件 ${file.name} 已复制到 ${targetDir}`)",
+                    "target": "log(`文件 ${file.name} 已复制到 ${targetDir}`)"
+                },
+                {
+                    "source": "Notice(`文章 \"${file.name}\" 已复制到 ${targetDir}`)",
+                    "target": "Notice(`文章 \"${file.name}\" 已复制到 ${targetDir}`)"
+                },
+                {
+                    "source": "log(`文件 ${file.name} 已移动到 ${targetDir}`)",
+                    "target": "log(`文件 ${file.name} 已移动到 ${targetDir}`)"
+                },
+                {
+                    "source": "Notice(`文章 \"${file.name}\" 已移动到 ${targetDir}`)",
+                    "target": "Notice(`文章 \"${file.name}\" 已移动到 ${targetDir}`)"
+                },
+                {
+                    "source": "Notice(`已检查 ${checkedCount} 个文件，移动了 ${movedCount} 个文件`)",
+                    "target": "Notice(`已检查 ${checkedCount} 个文件，移动了 ${movedCount} 个文件`)"
+                },
+                {
+                    "source": "log('Migrating old settings to new format...')",
+                    "target": "log('Migrating old settings to new format...')"
+                },
+                {
+                    "source": "Notice('配置已自动迁移到 v3.0 格式')",
+                    "target": "Notice('配置已自动迁移到 v3.0 格式')"
+                },
+                {
+                    "source": "log('Auto Move Published Articles plugin unloaded')",
+                    "target": "log('Auto Move Published Articles plugin unloaded')"
+                },
+                {
+                    "source": "setName('监控文件夹')",
+                    "target": "setName('监控文件夹')"
+                },
+                {
+                    "source": "setDesc('监控的文件夹路径（留空则监控整个仓库，支持相对路径和绝对路径）。所有规则都要满足此条件。')",
+                    "target": "setDesc('监控的文件夹路径（留空则监控整个仓库，支持相对路径和绝对路径）。所有规则都要满足此条件。')"
+                },
+                {
+                    "source": "setPlaceholder('留空则忽略此条件')",
+                    "target": "setPlaceholder('留空则忽略此条件')"
+                },
+                {
+                    "source": "setName('监控关键词')",
+                    "target": "setName('监控关键词')"
+                },
+                {
+                    "source": "setDesc('文件名包含的关键词（留空则忽略，多个关键词用逗号分隔）。所有规则都要满足此条件。')",
+                    "target": "setDesc('文件名包含的关键词（留空则忽略，多个关键词用逗号分隔）。所有规则都要满足此条件。')"
+                },
+                {
+                    "source": "setName('延迟时间（毫秒）')",
+                    "target": "setName('延迟时间（毫秒）')"
+                },
+                {
+                    "source": "setDesc('文件修改后延迟多久执行检查')",
+                    "target": "setDesc('文件修改后延迟多久执行检查')"
+                },
+                {
+                    "source": "setName('测试当前文件')",
+                    "target": "setName('测试当前文件')"
+                },
+                {
+                    "source": "setDesc('检查当前活动文件是否符合移动条件')",
+                    "target": "setDesc('检查当前活动文件是否符合移动条件')"
+                },
+                {
+                    "source": "setButtonText('测试当前文件')",
+                    "target": "setButtonText('测试当前文件')"
+                },
+                {
+                    "source": "setName('检查所有文件')",
+                    "target": "setName('检查所有文件')"
+                },
+                {
+                    "source": "setDesc('检查所有符合条件的文件')",
+                    "target": "setDesc('检查所有符合条件的文件')"
+                },
+                {
+                    "source": "setButtonText('检查所有')",
+                    "target": "setButtonText('检查所有')"
+                },
+                {
+                    "source": "Notice('已复制「极拓工坊」到剪贴板，请在微信中搜索')",
+                    "target": "Notice('已复制「极拓工坊」到剪贴板，请在微信中搜索')"
+                },
+                {
+                    "source": "Notice('请先选择要删除的规则')",
+                    "target": "Notice('请先选择要删除的规则')"
+                },
+                {
+                    "source": "Notice(`已删除 ${this.selectedRules.size} 个规则`)",
+                    "target": "Notice(`已删除 ${this.selectedRules.size} 个规则`)"
+                },
+                {
+                    "source": "Notice('请先选择要操作的规则')",
+                    "target": "Notice('请先选择要操作的规则')"
+                },
+                {
+                    "source": "Notice(`已${enabled ? '启用' : '禁用'} ${this.selectedRules.size} 个规则`)",
+                    "target": "Notice(`已${enabled ? '启用' : '禁用'} ${this.selectedRules.size} 个规则`)"
+                },
+                {
+                    "source": "text: '取消'",
+                    "target": "text: '取消'"
+                },
+                {
+                    "source": "text: '保存'",
+                    "target": "text: '保存'"
+                },
+                {
+                    "source": "name: '检查并移动当前文章'",
+                    "target": "name: '检查并移动当前文章'"
+                },
+                {
+                    "source": "name: '检查并移动所有文章'",
+                    "target": "name: '检查并移动所有文章'"
+                },
+                {
+                    "source": "name:', file.name);\r\n\r\n    // 延迟执行\r\n    setTimeout(() => {\r\n      console.log('",
+                    "target": "name:', file.name);\r\n\r\n    // 延迟执行\r\n    setTimeout(() => {\r\n      console.log('"
+                },
+                {
+                    "source": "name:', file.name);\r\n    console.log('",
+                    "target": "name:', file.name);\r\n    console.log('"
+                },
+                {
+                    "source": "name:', sourceFolderName);\r\n\r\n    // 目标路径\r\n    const targetPath = `${targetDir}/${sourceFolderName}`;\r\n    console.log('",
+                    "target": "name:', sourceFolderName);\r\n\r\n    // 目标路径\r\n    const targetPath = `${targetDir}/${sourceFolderName}`;\r\n    console.log('"
+                },
+                {
+                    "source": "text: '自动移动文件插件设置 v3.0'",
+                    "target": "text: '自动移动文件插件设置 v3.0'"
+                },
+                {
+                    "source": "text: '全局配置'",
+                    "target": "text: '全局配置'"
+                },
+                {
+                    "source": "text: '规则列表'",
+                    "target": "text: '规则列表'"
+                },
+                {
+                    "source": "text: '+ 添加新规则'",
+                    "target": "text: '+ 添加新规则'"
+                },
+                {
+                    "source": "textContent = '暂无规则，请添加新规则'",
+                    "target": "textContent = '暂无规则，请添加新规则'"
+                },
+                {
+                    "source": "textContent = `${rule.watchProperty}=${rule.triggerValue}`",
+                    "target": "textContent = `${rule.watchProperty}=${rule.triggerValue}`"
+                },
+                {
+                    "source": "textContent = '-'",
+                    "target": "textContent = '-'"
+                },
+                {
+                    "source": "textContent = '📁 文件夹'",
+                    "target": "textContent = '📁 文件夹'"
+                },
+                {
+                    "source": "textContent = '📋 复制'",
+                    "target": "textContent = '📋 复制'"
+                },
+                {
+                    "source": "textContent = '➡️ 移动'",
+                    "target": "textContent = '➡️ 移动'"
+                },
+                {
+                    "source": "text: '✏️'",
+                    "target": "text: '✏️'"
+                },
+                {
+                    "source": "text: '🗑️'",
+                    "target": "text: '🗑️'"
+                },
+                {
+                    "source": "textContent = '已选中 0 个规则'",
+                    "target": "textContent = '已选中 0 个规则'"
+                },
+                {
+                    "source": "text: '🗑️ 删除选中'",
+                    "target": "text: '🗑️ 删除选中'"
+                },
+                {
+                    "source": "text: '⏸️ 禁用选中'",
+                    "target": "text: '⏸️ 禁用选中'"
+                },
+                {
+                    "source": "text: '▶️ 启用选中'",
+                    "target": "text: '▶️ 启用选中'"
+                },
+                {
+                    "source": "text: '测试功能'",
+                    "target": "text: '测试功能'"
+                },
+                {
+                    "source": "textContent = '作者'",
+                    "target": "textContent = '作者'"
+                },
+                {
+                    "source": "textContent = '极拓工坊'",
+                    "target": "textContent = '极拓工坊'"
+                },
+                {
+                    "source": "textContent = '微信公众号：极拓工坊'",
+                    "target": "textContent = '微信公众号：极拓工坊'"
+                },
+                {
+                    "source": "textContent = '点击上方按钮，在微信中搜索「极拓工坊」'",
+                    "target": "textContent = '点击上方按钮，在微信中搜索「极拓工坊」'"
+                },
+                {
+                    "source": "textContent = `已选中 ${this.selectedRules.size} 个规则`",
+                    "target": "textContent = `已选中 ${this.selectedRules.size} 个规则`"
+                }
+            ]
+        }
+    }
+}
