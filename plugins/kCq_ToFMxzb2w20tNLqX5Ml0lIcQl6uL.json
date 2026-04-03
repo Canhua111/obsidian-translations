@@ -1,0 +1,1262 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "albus-imagine",
+        "version": "1.0.0",
+        "title": "Imagine",
+        "description": "Imagine Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "1.5.0",
+        "author": "Canhua"
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "AssignmentExpression",
+                    "name": "placeholder",
+                    "source": "输入图片标题（留空删除）",
+                    "target": "输入图片标题（留空删除）"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "确认",
+                    "target": "确认"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "引用数量",
+                    "target": "引用数量"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "文件名",
+                    "target": "文件名"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "文件大小",
+                    "target": "文件大小"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "创建时间",
+                    "target": "创建时间"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "修改时间",
+                    "target": "修改时间"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "升序",
+                    "target": "升序"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "降序",
+                    "target": "降序"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createDiv",
+                    "source": "image-manager-image-info cursor-pointer",
+                    "target": "image-manager-image-info cursor-pointer"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createSpan",
+                    "source": "标题:",
+                    "target": "标题:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createSpan",
+                    "source": "主题:",
+                    "target": "主题:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createSpan",
+                    "source": "方向:",
+                    "target": "方向:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createSpan",
+                    "source": "时间格式:",
+                    "target": "时间格式:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createSpan",
+                    "source": "开始日期:",
+                    "target": "开始日期:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createSpan",
+                    "source": "结束日期:",
+                    "target": "结束日期:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createSpan",
+                    "source": "显示数据:",
+                    "target": "显示数据:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createSpan",
+                    "source": "显示数值:",
+                    "target": "显示数值:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "添加文件类型",
+                    "target": "添加文件类型"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "在图片卡片上显示文件大小信息",
+                    "target": "在图片卡片上显示文件大小信息"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "在图片卡片上显示最后修改时间",
+                    "target": "在图片卡片上显示最后修改时间"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "打开图片管理器时的默认排序方式",
+                    "target": "打开图片管理器时的默认排序方式"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "打开图片管理器时的默认排序顺序",
+                    "target": "打开图片管理器时的默认排序顺序"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "在图片管理器中排除这些文件夹",
+                    "target": "在图片管理器中排除这些文件夹"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "删除文件前显示确认对话框",
+                    "target": "删除文件前显示确认对话框"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "在深色主题下对SVG图片进行反色处理，使其更适配深色背景",
+                    "target": "在深色主题下对SVG图片进行反色处理，使其更适配深色背景"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "是否允许通过拖拽 Callout 外图片边缘来调整图片大小",
+                    "target": "是否允许通过拖拽 Callout 外图片边缘来调整图片大小"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "是否允许通过拖拽 Callout 内图片边缘来调整图片大小",
+                    "target": "是否允许通过拖拽 Callout 内图片边缘来调整图片大小"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "在所有位置启用 Ctrl+点击图片查看功能",
+                    "target": "在所有位置启用 Ctrl+点击图片查看功能"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "显示文件大小",
+                    "target": "显示文件大小"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "显示修改时间",
+                    "target": "显示修改时间"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "默认排序字段",
+                    "target": "默认排序字段"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "默认排序顺序",
+                    "target": "默认排序顺序"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "排除文件夹",
+                    "target": "排除文件夹"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "删除确认",
+                    "target": "删除确认"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "深色模式下SVG图片反色",
+                    "target": "深色模式下SVG图片反色"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "自定义文件类型",
+                    "target": "自定义文件类型"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "类型",
+                    "target": "类型"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "启用 Callout 外图片拖拽调整大小",
+                    "target": "启用 Callout 外图片拖拽调整大小"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "启用 Callout 内图片拖拽调整大小",
+                    "target": "启用 Callout 内图片拖拽调整大小"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "调整大小的时间间隔",
+                    "target": "调整大小的时间间隔"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "边缘检测区域大小",
+                    "target": "边缘检测区域大小"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "启用图片查看器",
+                    "target": "启用图片查看器"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "输入要排除的文件夹路径, 每行一个",
+                    "target": "输入要排除的文件夹路径, 每行一个"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "文件扩展名 (如: pdf)",
+                    "target": "文件扩展名 (如: pdf)"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "封面扩展名 (如: jpg)",
+                    "target": "封面扩展名 (如: jpg)"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "封面文件夹 (可选)",
+                    "target": "封面文件夹 (可选)"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "此操作不可撤销！",
+                    "target": "此操作不可撤销！"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "选择图片",
+                    "target": "选择图片"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "图片对齐",
+                    "target": "图片对齐"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "居中",
+                    "target": "居中"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "左侧环绕",
+                    "target": "左侧环绕"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "右侧环绕",
+                    "target": "右侧环绕"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "深色反色",
+                    "target": "深色反色"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "编辑标题",
+                    "target": "编辑标题"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "打开源文件",
+                    "target": "打开源文件"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "删除链接",
+                    "target": "删除链接"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "在文件管理器中显示",
+                    "target": "在文件管理器中显示"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "在系统资源管理器中显示",
+                    "target": "在系统资源管理器中显示"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "删除此类型",
+                    "target": "删除此类型"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "请输入非负整数",
+                    "target": "请输入非负整数"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "文件重命名成功",
+                    "target": "文件重命名成功"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "文件删除成功",
+                    "target": "文件删除成功"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "没有要删除的图片",
+                    "target": "没有要删除的图片"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "没有选中的图片",
+                    "target": "没有选中的图片"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "请至少选择一张图片",
+                    "target": "请至少选择一张图片"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "在当前行中找到多个相同的图像链接,请手动缩放!",
+                    "target": "在当前行中找到多个相同的图像链接,请手动缩放!"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "无法获取图片路径",
+                    "target": "无法获取图片路径"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "未找到图片链接",
+                    "target": "未找到图片链接"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "链接已删除",
+                    "target": "链接已删除"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "文件不存在",
+                    "target": "文件不存在"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "打开文件失败",
+                    "target": "打开文件失败"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "请在编辑模式下使用",
+                    "target": "请在编辑模式下使用"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "已在文件管理器中定位",
+                    "target": "已在文件管理器中定位"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "已打开系统资源管理器",
+                    "target": "已打开系统资源管理器"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "打开系统资源管理器失败",
+                    "target": "打开系统资源管理器失败"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "无法找到图片容器",
+                    "target": "无法找到图片容器"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "图表已插入",
+                    "target": "图表已插入"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "请先打开一个 Markdown 文档",
+                    "target": "请先打开一个 Markdown 文档"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "aria-label",
+                    "source": "清空筛选",
+                    "target": "清空筛选"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "aria-label",
+                    "source": "打开",
+                    "target": "打开"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "aria-label",
+                    "source": "重命名",
+                    "target": "重命名"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "aria-label",
+                    "source": "删除",
+                    "target": "删除"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "居中",
+                    "target": "居中"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "左侧环绕",
+                    "target": "左侧环绕"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "右侧环绕",
+                    "target": "右侧环绕"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "行间",
+                    "target": "行间"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "节点1",
+                    "target": "节点1"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "类别1",
+                    "target": "类别1"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "类别2",
+                    "target": "类别2"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "类别3",
+                    "target": "类别3"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "流程图 (Flowchart)",
+                    "target": "流程图 (Flowchart)"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "甘特图 (Gantt)",
+                    "target": "甘特图 (Gantt)"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "时间线图 (Timeline)",
+                    "target": "时间线图 (Timeline)"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "饼图 (Pie)",
+                    "target": "饼图 (Pie)"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "桑基图 (Sankey)",
+                    "target": "桑基图 (Sankey)"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "默认任务",
+                    "target": "默认任务"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "基本形状",
+                    "target": "基本形状"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "矩形",
+                    "target": "矩形"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "圆角矩形",
+                    "target": "圆角矩形"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "椭圆矩形",
+                    "target": "椭圆矩形"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "重叠矩形",
+                    "target": "重叠矩形"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "菱形",
+                    "target": "菱形"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "圆形",
+                    "target": "圆形"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "双圈圆形",
+                    "target": "双圈圆形"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "六边形",
+                    "target": "六边形"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "右倾平行四边形",
+                    "target": "右倾平行四边形"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "左倾平行四边形",
+                    "target": "左倾平行四边形"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "梯形",
+                    "target": "梯形"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "反梯形",
+                    "target": "反梯形"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "圆柱形",
+                    "target": "圆柱形"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "横向圆柱",
+                    "target": "横向圆柱"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "左大括号",
+                    "target": "左大括号"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "右大括号",
+                    "target": "右大括号"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "双大括号",
+                    "target": "双大括号"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "三角形",
+                    "target": "三角形"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "倒三角形",
+                    "target": "倒三角形"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "纸带形",
+                    "target": "纸带形"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "文档",
+                    "target": "文档"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "多文档",
+                    "target": "多文档"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "标记文档",
+                    "target": "标记文档"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "无文本形状",
+                    "target": "无文本形状"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "实心点",
+                    "target": "实心点"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "空心点",
+                    "target": "空心点"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "环形点",
+                    "target": "环形点"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "交叉圆形",
+                    "target": "交叉圆形"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "闪电",
+                    "target": "闪电"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "沙漏",
+                    "target": "沙漏"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "示例任务",
+                    "target": "示例任务"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "打开图片管理器",
+                    "target": "打开图片管理器"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "插入图片",
+                    "target": "插入图片"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Mermaid 可视化编辑器",
+                    "target": "Mermaid 可视化编辑器"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "输入文件夹路径...",
+                    "target": "输入文件夹路径..."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "搜索图片...",
+                    "target": "搜索图片..."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "输入图片标题（可选）",
+                    "target": "输入图片标题（可选）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "暂无自定义文件类型",
+                    "target": "暂无自定义文件类型"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "点击下方\"添加文件类型\"按钮开始创建",
+                    "target": "点击下方\"添加文件类型\"按钮开始创建"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "⚠️",
+                    "target": "⚠️"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "图片加载失败",
+                    "target": "图片加载失败"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "文件可能已损坏、过大或格式不支持",
+                    "target": "文件可能已损坏、过大或格式不支持"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "详细信息",
+                    "target": "详细信息"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "引用文档",
+                    "target": "引用文档"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "📝 暂无引用",
+                    "target": "📝 暂无引用"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "重命名文件",
+                    "target": "重命名文件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "取消",
+                    "target": "取消"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "确定",
+                    "target": "确定"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "确定要删除文件 ",
+                    "target": "确定要删除文件 "
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": " 吗？",
+                    "target": " 吗？"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "删除",
+                    "target": "删除"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "确认要删除 ",
+                    "target": "确认要删除 "
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "删除全部",
+                    "target": "删除全部"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "正在删除图片...",
+                    "target": "正在删除图片..."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "删除全部未引用",
+                    "target": "删除全部未引用"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "刷新",
+                    "target": "刷新"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "筛选:",
+                    "target": "筛选:"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "排序:",
+                    "target": "排序:"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "修改时间",
+                    "target": "修改时间"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "创建时间",
+                    "target": "创建时间"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "文件大小",
+                    "target": "文件大小"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "文件名",
+                    "target": "文件名"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "引用数量",
+                    "target": "引用数量"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "↓ 降序",
+                    "target": "↓ 降序"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "↑ 升序",
+                    "target": "↑ 升序"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "加载中...",
+                    "target": "加载中..."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "提示：请检查文件夹路径设置",
+                    "target": "提示：请检查文件夹路径设置"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "封面缺失",
+                    "target": "封面缺失"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "加载失败",
+                    "target": "加载失败"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "排序依据:",
+                    "target": "排序依据:"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "位置：",
+                    "target": "位置："
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "反色：",
+                    "target": "反色："
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "标题：",
+                    "target": "标题："
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "居中",
+                    "target": "居中"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "左侧环绕",
+                    "target": "左侧环绕"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "右侧环绕",
+                    "target": "右侧环绕"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "甘特图",
+                    "target": "甘特图"
+                }
+            ],
+            "regex": [
+                {
+                    "source": "setPlaceholder(\"\\u8F93\\u5165\\u8981\\u6392\\u9664\\u7684\\u6587\\u4EF6\\u5939\\u8DEF\\u5F84, \\u6BCF\\u884C\\u4E00\\u4E2A\")",
+                    "target": "setPlaceholder(\"\\u8F93\\u5165\\u8981\\u6392\\u9664\\u7684\\u6587\\u4EF6\\u5939\\u8DEF\\u5F84, \\u6BCF\\u884C\\u4E00\\u4E2A\")"
+                },
+                {
+                    "source": "setPlaceholder(\"\\u6587\\u4EF6\\u6269\\u5C55\\u540D (\\u5982: pdf)\")",
+                    "target": "setPlaceholder(\"\\u6587\\u4EF6\\u6269\\u5C55\\u540D (\\u5982: pdf)\")"
+                },
+                {
+                    "source": "setPlaceholder(\"\\u5C01\\u9762\\u6269\\u5C55\\u540D (\\u5982: jpg)\")",
+                    "target": "setPlaceholder(\"\\u5C01\\u9762\\u6269\\u5C55\\u540D (\\u5982: jpg)\")"
+                },
+                {
+                    "source": "setPlaceholder(\"\\u5C01\\u9762\\u6587\\u4EF6\\u5939 (\\u53EF\\u9009)\")",
+                    "target": "setPlaceholder(\"\\u5C01\\u9762\\u6587\\u4EF6\\u5939 (\\u53EF\\u9009)\")"
+                },
+                {
+                    "source": "setName(\"\\u542F\\u7528 Callout \\u5916\\u56FE\\u7247\\u62D6\\u62FD\\u8C03\\u6574\\u5927\\u5C0F\")",
+                    "target": "setName(\"\\u542F\\u7528 Callout \\u5916\\u56FE\\u7247\\u62D6\\u62FD\\u8C03\\u6574\\u5927\\u5C0F\")"
+                },
+                {
+                    "source": "setDesc(\"\\u662F\\u5426\\u5141\\u8BB8\\u901A\\u8FC7\\u62D6\\u62FD Callout \\u5916\\u56FE\\u7247\\u8FB9\\u7F18\\u6765\\u8C03\\u6574\\u56FE\\u7247\\u5927\\u5C0F\")",
+                    "target": "setDesc(\"\\u662F\\u5426\\u5141\\u8BB8\\u901A\\u8FC7\\u62D6\\u62FD Callout \\u5916\\u56FE\\u7247\\u8FB9\\u7F18\\u6765\\u8C03\\u6574\\u56FE\\u7247\\u5927\\u5C0F\")"
+                },
+                {
+                    "source": "setName(\"\\u542F\\u7528 Callout \\u5185\\u56FE\\u7247\\u62D6\\u62FD\\u8C03\\u6574\\u5927\\u5C0F\")",
+                    "target": "setName(\"\\u542F\\u7528 Callout \\u5185\\u56FE\\u7247\\u62D6\\u62FD\\u8C03\\u6574\\u5927\\u5C0F\")"
+                },
+                {
+                    "source": "setDesc(\"\\u662F\\u5426\\u5141\\u8BB8\\u901A\\u8FC7\\u62D6\\u62FD Callout \\u5185\\u56FE\\u7247\\u8FB9\\u7F18\\u6765\\u8C03\\u6574\\u56FE\\u7247\\u5927\\u5C0F\")",
+                    "target": "setDesc(\"\\u662F\\u5426\\u5141\\u8BB8\\u901A\\u8FC7\\u62D6\\u62FD Callout \\u5185\\u56FE\\u7247\\u8FB9\\u7F18\\u6765\\u8C03\\u6574\\u56FE\\u7247\\u5927\\u5C0F\")"
+                },
+                {
+                    "source": "setDesc(`\\u62D6\\u52A8\\u8C03\\u6574\\u6700\\u5C0F\\u523B\\u5EA6\\uFF08\\u5F53\\u524D: ${n} px\\uFF0C0 \\u8868\\u793A\\u4E0D\\u5BF9\\u9F50\\u523B\\u5EA6\\uFF09`)",
+                    "target": "setDesc(`\\u62D6\\u52A8\\u8C03\\u6574\\u6700\\u5C0F\\u523B\\u5EA6\\uFF08\\u5F53\\u524D: ${n} px\\uFF0C0 \\u8868\\u793A\\u4E0D\\u5BF9\\u9F50\\u523B\\u5EA6\\uFF09`)"
+                },
+                {
+                    "source": "setDesc(`\\u62D6\\u52A8\\u8C03\\u6574\\u6700\\u5C0F\\u523B\\u5EA6\\uFF08\\u5F53\\u524D: ${r} px\\uFF0C0 \\u8868\\u793A\\u4E0D\\u5BF9\\u9F50\\u523B\\u5EA6\\uFF09`)",
+                    "target": "setDesc(`\\u62D6\\u52A8\\u8C03\\u6574\\u6700\\u5C0F\\u523B\\u5EA6\\uFF08\\u5F53\\u524D: ${r} px\\uFF0C0 \\u8868\\u793A\\u4E0D\\u5BF9\\u9F50\\u523B\\u5EA6\\uFF09`)"
+                },
+                {
+                    "source": "setDesc(`\\u9F20\\u6807\\u5728\\u56FE\\u7247\\u8FB9\\u7F18\\u591A\\u5C11\\u50CF\\u7D20\\u5185\\u53EF\\u4EE5\\u89E6\\u53D1\\u8C03\\u6574\\u5927\\u5C0F\\uFF08\\u5F53\\u524D: ${n} px\\uFF09`)",
+                    "target": "setDesc(`\\u9F20\\u6807\\u5728\\u56FE\\u7247\\u8FB9\\u7F18\\u591A\\u5C11\\u50CF\\u7D20\\u5185\\u53EF\\u4EE5\\u89E6\\u53D1\\u8C03\\u6574\\u5927\\u5C0F\\uFF08\\u5F53\\u524D: ${n} px\\uFF09`)"
+                },
+                {
+                    "source": "setDesc(`\\u9F20\\u6807\\u5728\\u56FE\\u7247\\u8FB9\\u7F18\\u591A\\u5C11\\u50CF\\u7D20\\u5185\\u53EF\\u4EE5\\u89E6\\u53D1\\u8C03\\u6574\\u5927\\u5C0F\\uFF08\\u5F53\\u524D: ${o} px\\uFF09`)",
+                    "target": "setDesc(`\\u9F20\\u6807\\u5728\\u56FE\\u7247\\u8FB9\\u7F18\\u591A\\u5C11\\u50CF\\u7D20\\u5185\\u53EF\\u4EE5\\u89E6\\u53D1\\u8C03\\u6574\\u5927\\u5C0F\\uFF08\\u5F53\\u524D: ${o} px\\uFF09`)"
+                },
+                {
+                    "source": "setDesc(\"\\u5728\\u6240\\u6709\\u4F4D\\u7F6E\\u542F\\u7528 Ctrl+\\u70B9\\u51FB\\u56FE\\u7247\\u67E5\\u770B\\u529F\\u80FD\")",
+                    "target": "setDesc(\"\\u5728\\u6240\\u6709\\u4F4D\\u7F6E\\u542F\\u7528 Ctrl+\\u70B9\\u51FB\\u56FE\\u7247\\u67E5\\u770B\\u529F\\u80FD\")"
+                },
+                {
+                    "source": "Notice(`\\u91CD\\u547D\\u540D\\u5931\\u8D25: ${t.message}`)",
+                    "target": "Notice(`\\u91CD\\u547D\\u540D\\u5931\\u8D25: ${t.message}`)"
+                },
+                {
+                    "source": "Notice(`\\u5220\\u9664\\u5931\\u8D25: ${t.message}`)",
+                    "target": "Notice(`\\u5220\\u9664\\u5931\\u8D25: ${t.message}`)"
+                },
+                {
+                    "source": "setText(`\\u666E\\u901A\\u56FE\\u7247 ${t.length} \\u5F20, \\u7279\\u6B8A\\u56FE\\u7247 ${a.length} \\u5F20, \\u5171\\u5220\\u9664 ${t.length} + ${a.length}\\xD72 = ${n} \\u4E2A\\u6587\\u4EF6`)",
+                    "target": "setText(`\\u666E\\u901A\\u56FE\\u7247 ${t.length} \\u5F20, \\u7279\\u6B8A\\u56FE\\u7247 ${a.length} \\u5F20, \\u5171\\u5220\\u9664 ${t.length} + ${a.length}\\xD72 = ${n} \\u4E2A\\u6587\\u4EF6`)"
+                },
+                {
+                    "source": "setText(`\\u5171\\u5220\\u9664 ${n} \\u4E2A\\u6587\\u4EF6`)",
+                    "target": "setText(`\\u5171\\u5220\\u9664 ${n} \\u4E2A\\u6587\\u4EF6`)"
+                },
+                {
+                    "source": "setText(`\\u6B63\\u5728\\u5220\\u9664... ${e}/${t} (${a}%)`)",
+                    "target": "setText(`\\u6B63\\u5728\\u5220\\u9664... ${e}/${t} (${a}%)`)"
+                },
+                {
+                    "source": "setText(`\\u5DF2\\u663E\\u793A ${this.renderedCount} / ${this.filteredImages.length} \\u5F20\\u56FE\\u7247`)",
+                    "target": "setText(`\\u5DF2\\u663E\\u793A ${this.renderedCount} / ${this.filteredImages.length} \\u5F20\\u56FE\\u7247`)"
+                },
+                {
+                    "source": "Notice(`\\u52A0\\u8F7D\\u56FE\\u7247\\u5931\\u8D25: ${e.message}`)",
+                    "target": "Notice(`\\u52A0\\u8F7D\\u56FE\\u7247\\u5931\\u8D25: ${e.message}`)"
+                },
+                {
+                    "source": "Notice(`\\u6B63\\u5728\\u68C0\\u67E5\\u5F15\\u7528... 0/${this.images.length}`,0);try{this.images=await this.referenceChecker.checkReferences(this.images,(t,a)=>{let n=Math.round(t/a*100);e.setMessage(`\\u6B63\\u5728\\u68C0\\u67E5\\u5F15\\u7528... ${t}/${a} (${n}%)`)",
+                    "target": "Notice(`\\u6B63\\u5728\\u68C0\\u67E5\\u5F15\\u7528... 0/${this.images.length}`,0);try{this.images=await this.referenceChecker.checkReferences(this.images,(t,a)=>{let n=Math.round(t/a*100);e.setMessage(`\\u6B63\\u5728\\u68C0\\u67E5\\u5F15\\u7528... ${t}/${a} (${n}%)`)"
+                },
+                {
+                    "source": "Notice(`\\u5F15\\u7528\\u68C0\\u67E5\\u5B8C\\u6210\\uFF1A\\u5DF2\\u68C0\\u67E5 ${this.images.length} \\u5F20\\u56FE\\u7247`)",
+                    "target": "Notice(`\\u5F15\\u7528\\u68C0\\u67E5\\u5B8C\\u6210\\uFF1A\\u5DF2\\u68C0\\u67E5 ${this.images.length} \\u5F20\\u56FE\\u7247`)"
+                },
+                {
+                    "source": "Notice(`\\u68C0\\u67E5\\u5F15\\u7528\\u5931\\u8D25: ${t.message}`)",
+                    "target": "Notice(`\\u68C0\\u67E5\\u5F15\\u7528\\u5931\\u8D25: ${t.message}`)"
+                },
+                {
+                    "source": "Notice(`\\u6210\\u529F\\u5220\\u9664 ${s} \\u5F20\\u56FE\\u7247`)",
+                    "target": "Notice(`\\u6210\\u529F\\u5220\\u9664 ${s} \\u5F20\\u56FE\\u7247`)"
+                },
+                {
+                    "source": "Notice(`\\u5220\\u9664\\u5B8C\\u6210: \\u6210\\u529F ${s} \\u5F20, \\u5931\\u8D25 ${o} \\u5F20`)",
+                    "target": "Notice(`\\u5220\\u9664\\u5B8C\\u6210: \\u6210\\u529F ${s} \\u5F20, \\u5931\\u8D25 ${o} \\u5F20`)"
+                },
+                {
+                    "source": "setText(`\\u5171 ${this.images.length} \\u5F20`)",
+                    "target": "setText(`\\u5171 ${this.images.length} \\u5F20`)"
+                },
+                {
+                    "source": "Notice(`\\u5728 ${h===\"table\"?\"\\u8868\\u683C\":\"callout\"} \\u4E2D\\u672A\\u80FD\\u627E\\u5230\\u5F53\\u524D\\u56FE\\u50CF\\u94FE\\u63A5,\\u8BF7\\u624B\\u52A8\\u7F29\\u653E!`)",
+                    "target": "Notice(`\\u5728 ${h===\"table\"?\"\\u8868\\u683C\":\"callout\"} \\u4E2D\\u672A\\u80FD\\u627E\\u5230\\u5F53\\u524D\\u56FE\\u50CF\\u94FE\\u63A5,\\u8BF7\\u624B\\u52A8\\u7F29\\u653E!`)"
+                },
+                {
+                    "source": "Notice(`\\u5728 ${h===\"table\"?\"\\u8868\\u683C\":\"callout\"} \\u4E2D\\u627E\\u5230\\u591A\\u4E2A\\u76F8\\u540C\\u7684\\u56FE\\u50CF\\u94FE\\u63A5,\\u8BF7\\u624B\\u52A8\\u7F29\\u653E!`)",
+                    "target": "Notice(`\\u5728 ${h===\"table\"?\"\\u8868\\u683C\":\"callout\"} \\u4E2D\\u627E\\u5230\\u591A\\u4E2A\\u76F8\\u540C\\u7684\\u56FE\\u50CF\\u94FE\\u63A5,\\u8BF7\\u624B\\u52A8\\u7F29\\u653E!`)"
+                },
+                {
+                    "source": "Notice(`\\u5728 ${p===\"table\"?\"\\u8868\\u683C\":\"callout\"} \\u4E2D\\u672A\\u80FD\\u627E\\u5230\\u5F53\\u524D\\u56FE\\u50CF\\u94FE\\u63A5,\\u8BF7\\u624B\\u52A8\\u7F29\\u653E!`)",
+                    "target": "Notice(`\\u5728 ${p===\"table\"?\"\\u8868\\u683C\":\"callout\"} \\u4E2D\\u672A\\u80FD\\u627E\\u5230\\u5F53\\u524D\\u56FE\\u50CF\\u94FE\\u63A5,\\u8BF7\\u624B\\u52A8\\u7F29\\u653E!`)"
+                },
+                {
+                    "source": "Notice(`\\u5728 ${p===\"table\"?\"\\u8868\\u683C\":\"callout\"} \\u4E2D\\u627E\\u5230\\u591A\\u4E2A\\u76F8\\u540C\\u7684\\u56FE\\u50CF\\u94FE\\u63A5,\\u8BF7\\u624B\\u52A8\\u7F29\\u653E!`)",
+                    "target": "Notice(`\\u5728 ${p===\"table\"?\"\\u8868\\u683C\":\"callout\"} \\u4E2D\\u627E\\u5230\\u591A\\u4E2A\\u76F8\\u540C\\u7684\\u56FE\\u50CF\\u94FE\\u63A5,\\u8BF7\\u624B\\u52A8\\u7F29\\u653E!`)"
+                },
+                {
+                    "source": "Notice(`\\u5BF9\\u9F50: ${t}`)",
+                    "target": "Notice(`\\u5BF9\\u9F50: ${t}`)"
+                },
+                {
+                    "source": "Notice(\"\\u8BF7\\u5148\\u6253\\u5F00\\u4E00\\u4E2A Markdown \\u6587\\u6863\")",
+                    "target": "Notice(\"\\u8BF7\\u5148\\u6253\\u5F00\\u4E00\\u4E2A Markdown \\u6587\\u6863\")"
+                },
+                {
+                    "source": "text:`${this.image.referenceCount} \\u4E2A\\u5F15\\u7528`",
+                    "target": "text:`${this.image.referenceCount} \\u4E2A\\u5F15\\u7528`"
+                },
+                {
+                    "source": "text:\"\\u{1F4DD} \\u6682\\u65E0\\u5F15\\u7528\"",
+                    "target": "text:\"\\u{1F4DD} \\u6682\\u65E0\\u5F15\\u7528\""
+                },
+                {
+                    "source": "text:\"\\u786E\\u5B9A\\u8981\\u5220\\u9664\\u6587\\u4EF6 \"",
+                    "target": "text:\"\\u786E\\u5B9A\\u8981\\u5220\\u9664\\u6587\\u4EF6 \""
+                },
+                {
+                    "source": "text:\" \\u5417\\uFF1F\"",
+                    "target": "text:\" \\u5417\\uFF1F\""
+                },
+                {
+                    "source": "text:\"\\u786E\\u8BA4\\u8981\\u5220\\u9664 \"",
+                    "target": "text:\"\\u786E\\u8BA4\\u8981\\u5220\\u9664 \""
+                },
+                {
+                    "source": "text:`${this.images.length} \\u5F20\\u56FE\\u7247`",
+                    "target": "text:`${this.images.length} \\u5F20\\u56FE\\u7247`"
+                },
+                {
+                    "source": "text:`\\u6279\\u91CF\\u5220\\u9664 (${this.selectedImages.size})`",
+                    "target": "text:`\\u6279\\u91CF\\u5220\\u9664 (${this.selectedImages.size})`"
+                },
+                {
+                    "source": "text:\"\\u2193 \\u964D\\u5E8F\"",
+                    "target": "text:\"\\u2193 \\u964D\\u5E8F\""
+                },
+                {
+                    "source": "text:\"\\u2191 \\u5347\\u5E8F\"",
+                    "target": "text:\"\\u2191 \\u5347\\u5E8F\""
+                },
+                {
+                    "source": "text:`\\u786E\\u8BA4 (${this.selectedImages.size})`",
+                    "target": "text:`\\u786E\\u8BA4 (${this.selectedImages.size})`"
+                },
+                {
+                    "source": "name:\"\\u6D41\\u7A0B\\u56FE (Flowchart)\"",
+                    "target": "name:\"\\u6D41\\u7A0B\\u56FE (Flowchart)\""
+                },
+                {
+                    "source": "name:\"\\u7518\\u7279\\u56FE (Gantt)\"",
+                    "target": "name:\"\\u7518\\u7279\\u56FE (Gantt)\""
+                },
+                {
+                    "source": "name:\"\\u65F6\\u95F4\\u7EBF\\u56FE (Timeline)\"",
+                    "target": "name:\"\\u65F6\\u95F4\\u7EBF\\u56FE (Timeline)\""
+                },
+                {
+                    "source": "name:\"\\u997C\\u56FE (Pie)\"",
+                    "target": "name:\"\\u997C\\u56FE (Pie)\""
+                },
+                {
+                    "source": "name:\"\\u6851\\u57FA\\u56FE (Sankey)\"",
+                    "target": "name:\"\\u6851\\u57FA\\u56FE (Sankey)\""
+                },
+                {
+                    "source": "name:\"Mermaid \\u53EF\\u89C6\\u5316\\u7F16\\u8F91\\u5668\"",
+                    "target": "name:\"Mermaid \\u53EF\\u89C6\\u5316\\u7F16\\u8F91\\u5668\""
+                }
+            ]
+        }
+    }
+}
